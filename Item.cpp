@@ -15,15 +15,15 @@ Item::Item(){
 
 Item::Item(float a, float b){
 
-    unitPrice = a;
-    discount = b; 
+    unitPrice = b;
+    discount = a; 
   
 }
 
 // 6. Implement Destructor (display "Destructor Called")
 
 Item::~Item(){
-  cout << "Circle Destructor called" << endl;
+  cout << "Destructor called" << endl;
 }
   
 
